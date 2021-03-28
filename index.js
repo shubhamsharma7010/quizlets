@@ -4,7 +4,7 @@ var chalk = require("chalk")
 var userName = chalk.bold.red(readlineSync.question(chalk.blue(("What's your name?  "))));
 
 console.log("Welocome to the quiz " + userName + "\n");
-console.log("Topic of the quiz is" + chalk.yellowBright("General Knowledge"))
+console.log("Topic of the quiz is" + chalk.yellowBright(" General Knowledge"))
 var score = 0;
 
 function quiz(options, question, answer){
